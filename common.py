@@ -36,7 +36,7 @@ def common_styles():
 	common_styles = """
 	<style>
 	#MainMenu,
-	#footer
+	footer
 	{visibility: hidden; !important}
 	</style>
 	"""
