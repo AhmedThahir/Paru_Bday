@@ -36,8 +36,7 @@ def common_styles():
 	common_styles = """
 	<style>
 	#MainMenu,
-	#footer,
-	a[href="https://streamlit.io/cloud"]
+	#footer
 	{visibility: hidden; !important}
 	</style>
 	"""
