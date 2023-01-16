@@ -35,7 +35,7 @@ def common_select():
 def common_styles():
 	common_styles = """
 	<style>
-	
+	#MainMenu {visibility: hidden;}
 	footer {visibility: hidden;}
 	</style>
 	"""
