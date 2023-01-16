@@ -35,8 +35,10 @@ def common_select():
 def common_styles():
 	common_styles = """
 	<style>
-	#MainMenu {visibility: hidden;}
-	footer {visibility: hidden;}
+	#MainMenu,
+	#footer,
+	a[href="https://streamlit.io/cloud"]
+	{display: none;}
 	</style>
 	"""
 
